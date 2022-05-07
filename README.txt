@@ -1,6 +1,10 @@
-This is the stub README.txt for the "kgn" project.
+This is the common utility library for the Knowledge Graph Navigator project.
 
-try:
+keywords: SPARQL, DBPedia, linked data
+
+Book URI: https://leanpub.com/lovinglisp
+
+Clone this repo into ~/quicklisp/local-projects and then try:
 
     (ql:quickload "kgn-common")
     (kgn-common:dbpedia-get-company-detail "<http://dbpedia.org/resource/Microsoft>")
