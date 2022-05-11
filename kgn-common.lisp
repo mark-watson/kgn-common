@@ -1,3 +1,6 @@
+;; Compyright 2019-2022 Mark Watson All Rights Reserved.
+;; License: Apache 2
+
 (in-package #:kgn-common)
 
 (defun pprint-results (results &key (stream t))
